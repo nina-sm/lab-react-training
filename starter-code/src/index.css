@@ -12,3 +12,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+.idCard {
+  display:flex;
+  border: solid 1px black;
+  margin: 2%;
+  width:500px;
+  padding: 0.1%;
+}
+
+.idText {
+  margin-left:1%;
+  margin-top: -1%;
+}
+
+.lang {
+
+  width:500px;
+  border: solid 1px black;
+  margin: 2%;
+  padding: 0.1%;
+}
+
+.randomNumber{
+  width:500px;
+  border: solid 1px black;
+  margin: 2%;
+  padding: 0.1%;
+
+}
+
+.BoxColor{
+  width:400px;
+  height:200px;
+  margin:2%;
+}
+ 

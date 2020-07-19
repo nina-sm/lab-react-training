@@ -5,6 +5,7 @@ import Random from './Random'
 import BoxColor from './BoxColor'
 import CreditCard from './CreditCard'
 import Rating from './Rating'
+import DriverCard from './DriverCard'
 
 class App extends Component {
   render() {
@@ -12,8 +13,7 @@ class App extends Component {
       <div className="App">
 
 
-        <h1>IdCard</h1>
-        {/* TODO: Use the IdCard component */}
+        <h1>IdCard</h1> 
         <IdCard lastName="Doe" firstName="John" gender="male" height={1.78} picture="https://randomuser.me/api/portraits/men/44.jpg" />
 
         <IdCard lastName="Obrien" firstName="Dolores" gender="female" height={1.72} picture="https://randomuser.me/api/portraits/women/44.jpg" />
@@ -73,8 +73,33 @@ class App extends Component {
 
 
         <h1>Rating</h1>
+        
+        <Rating>0</Rating>
+        <Rating>1.49</Rating>
+        <Rating>1.5</Rating>
+        <Rating>3</Rating>
+        <Rating>4</Rating>
+        <Rating>5</Rating>
 
-        <Rating />
+
+        <h1>Driver Card</h1>
+
+<DriverCard 
+  name="Travis Kalanick"
+  rating={4.2}
+  img="https://si.wsj.net/public/resources/images/BN-TY647_37gql_OR_20170621052140.jpg?width=620&height=428"
+  car={{
+    model: "Toyota Corolla Altis",
+    licensePlate: "CO42DE"
+  }} />
+<DriverCard 
+  name="Dara Khosrowshahi"
+  rating={4.9}
+  img="https://ubernewsroomapi.10upcdn.com/wp-content/uploads/2017/09/Dara_ELT_Newsroom_1000px.jpg"
+  car={{
+    model: "Audi A3",
+    licensePlate: "BE33ER"
+  }} />
 
       </div>
 

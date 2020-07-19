@@ -6,6 +6,8 @@ import BoxColor from './BoxColor'
 import CreditCard from './CreditCard'
 import Rating from './Rating'
 import DriverCard from './DriverCard'
+import LikeButton from './LikeButton'
+import ClickablePicture from './ClickablePicture'
 
 class App extends Component {
   render() {
@@ -101,10 +103,21 @@ class App extends Component {
     licensePlate: "BE33ER"
   }} />
 
+<h1>Like Button</h1>
+
+<LikeButton /> <LikeButton />
+
       </div>
 
     );
   }
 }
+
+
+<h1>Clickable Picture</h1>
+
+<ClickablePicture
+  img="/img/persons/maxence.png"
+  imgClicked="/img/persons/maxence-glasses.png" /> 
 
 export default App;

@@ -18,8 +18,7 @@ export default class NumberTable extends Component {
  
     return (
 
-        <div>
-        <p>Hello</p> 
+        <div> 
         <ul className="NumberTable">
            {this.createNumbers()}
        </ul>

@@ -10,6 +10,7 @@ import LikeButton from './LikeButton'
 import ClickablePicture from './ClickablePicture'
 import Dice from './Dice' 
 import NumberTable from './NumberTable'
+import Facebook from './Facebook'
 
 class App extends Component {
   render() {
@@ -126,6 +127,10 @@ class App extends Component {
 
 <NumberTable limit={12}/>
  
+
+<h1>Facebook</h1>
+
+<Facebook />
 
       </div>
 

@@ -97,7 +97,7 @@ code {
   display:-webkit-flex;
   list-style: none;  
   flex-wrap: wrap;
-  width: 500px;
+  width: 600px;
 
 }
 
@@ -109,4 +109,16 @@ code {
    display:flex;
    align-items: center;
    justify-content: center;
+}
+
+.FacebookCard{
+  border: 1px solid black;
+  width: 500px;
+  display:flex;
+  padding:1%;
+}
+
+.FacebookCard img {
+  width:150px;
+  margin-right:1%;
 }

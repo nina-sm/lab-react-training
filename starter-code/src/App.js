@@ -8,7 +8,8 @@ import Rating from './Rating'
 import DriverCard from './DriverCard'
 import LikeButton from './LikeButton'
 import ClickablePicture from './ClickablePicture'
-import Dice from './Dice'
+import Dice from './Dice' 
+import NumberTable from './NumberTable'
 
 class App extends Component {
   render() {
@@ -119,6 +120,12 @@ class App extends Component {
 <h1>Dice</h1>
 
 <Dice empty="/img/dice-empty.png" /> 
+
+
+<h1>Number Table</h1>
+
+<NumberTable limit={12}/>
+ 
 
       </div>
 

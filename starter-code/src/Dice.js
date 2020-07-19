@@ -1,6 +1,4 @@
-import React, { Component } from 'react'
-import Random from './Random'
-
+import React, { Component } from 'react' 
 
 export default class Dice extends Component {
 

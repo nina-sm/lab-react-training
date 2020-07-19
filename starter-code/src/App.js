@@ -107,11 +107,6 @@ class App extends Component {
 
 <LikeButton /> <LikeButton />
 
-      </div>
-
-    );
-  }
-}
 
 
 <h1>Clickable Picture</h1>
@@ -119,5 +114,12 @@ class App extends Component {
 <ClickablePicture
   img="/img/persons/maxence.png"
   imgClicked="/img/persons/maxence-glasses.png" /> 
+
+
+      </div>
+
+    );
+  }
+}
 
 export default App;
